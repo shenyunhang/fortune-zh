@@ -1,3 +1,15 @@
+fortune-zh (1.8) unstable; urgency=low
+
+  * Changed Architecture to all. (Closes:Bug#518054) 
+
+ -- Yu Guanghui <ygh@debian.org>  Wed, 04 Mar 2009 22:40:24 +0800
+
+fortune-zh (1.7) unstable; urgency=low
+
+  * Porvides fortune-cookie-db. (Closes:Bug#448063)
+
+ -- Yu Guanghui <ygh@debian.org>  Thu,  6 Jul 2006 02:41:43 +0800
+
 fortune-zh (1.6) unstable; urgency=low
 
   * recode has issues when convert utf8 to big5. Modified fortune-zh
