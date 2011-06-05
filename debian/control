@@ -6,6 +6,8 @@ Maintainer: Debian Chinese Team <chinese-developers@lists.alioth.debian.org>
 Uploaders:
  LI Daobing <lidaobing@debian.org>
 Standards-Version: 3.9.2
+Vcs-Git: git://anonscm.debian.org/chinese/fortune-zh.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=chinese/fortune-zh.git
 
 Package: fortune-zh
 Architecture: any
