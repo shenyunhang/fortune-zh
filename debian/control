@@ -1,6 +1,6 @@
 Source: fortune-zh
 Section: games
-Build-Depends: debhelper (>= 2.0.72),fortune-mod
+Build-Depends: debhelper (>= 7), fortune-mod
 Priority: optional
 Maintainer: Debian Chinese Team <chinese-developers@lists.alioth.debian.org>
 Uploaders:
