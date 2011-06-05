@@ -2,7 +2,9 @@ Source: fortune-zh
 Section: games
 Build-Depends: debhelper (>= 2.0.72),fortune-mod
 Priority: optional
-Maintainer: Yu Guanghui <ygh@debian.org>
+Maintainer: Debian Chinese Team <chinese-developers@lists.alioth.debian.org>
+Uploaders:
+ LI Daobing <lidaobing@debian.org>
 Standards-Version: 3.5.1
 
 Package: fortune-zh
