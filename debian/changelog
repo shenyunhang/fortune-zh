@@ -16,10 +16,11 @@ fortune-zh (1.9) unstable; urgency=low
   * Makefile: 
     - create dest dir first.
     - don't raise error when clean.
+    - install fortune-zh to /usr/games
   * debian/rules: updated. 
   * debian/copyright: updated. 
 
- -- LI Daobing <lidaobing@debian.org>  Sun, 05 Jun 2011 11:28:55 +0800
+ -- LI Daobing <lidaobing@debian.org>  Sun, 05 Jun 2011 11:30:43 +0800
 
 fortune-zh (1.8) unstable; urgency=low
 

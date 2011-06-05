@@ -12,11 +12,11 @@ clean:
 
 install: all
 	mkdir -p $(DESTDIR)/usr/share/games/fortunes
-	mkdir -p $(DESTDIR)/usr/bin
+	mkdir -p $(DESTDIR)/usr/games
 	install -m0644  tang300 $(DESTDIR)/usr/share/games/fortunes
 	cp -d  tang300.u8 $(DESTDIR)/usr/share/games/fortunes
 	install -m0644  tang300.dat $(DESTDIR)/usr/share/games/fortunes
 	install -m0644  song100 $(DESTDIR)/usr/share/games/fortunes
 	cp -d  song100.u8 $(DESTDIR)/usr/share/games/fortunes
 	install -m0644  song100.dat $(DESTDIR)/usr/share/games/fortunes
-	install -m0755  fortune-zh $(DESTDIR)/usr/bin
+	install -m0755  fortune-zh $(DESTDIR)/usr/games/
