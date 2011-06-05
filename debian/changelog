@@ -5,12 +5,13 @@ fortune-zh (1.9) unstable; urgency=low
     - bump standards version to 3.9.2.
     - add Vcs-* fields. 
     - update description.
+    - add misc:Depends to depends.
   * bump compat level to 7:
     - debian/rules: updated.
     - debian/compat: added.
     - debian/control: update build depends.
 
- -- LI Daobing <lidaobing@debian.org>  Sun, 05 Jun 2011 11:14:31 +0800
+ -- LI Daobing <lidaobing@debian.org>  Sun, 05 Jun 2011 11:19:49 +0800
 
 fortune-zh (1.8) unstable; urgency=low
 
