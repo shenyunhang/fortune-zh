@@ -11,6 +11,8 @@ clean:
 	rm *dat
 
 install: all
+	mkdir -p $(DESTDIR)/usr/share/games/fortunes
+	mkdir -p $(DESTDIR)/usr/bin
 	install -m0644  tang300 $(DESTDIR)/usr/share/games/fortunes
 	cp -d  tang300.u8 $(DESTDIR)/usr/share/games/fortunes
 	install -m0644  tang300.dat $(DESTDIR)/usr/share/games/fortunes
