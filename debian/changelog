@@ -19,8 +19,11 @@ fortune-zh (1.9) unstable; urgency=low
     - install fortune-zh to /usr/games
   * debian/rules: updated. 
   * debian/copyright: updated. 
+  * Fix "Fix a few characters + fortune files in Traditional Chinese"
+    (Closes: #427092)
+    - song100: updated.
 
- -- LI Daobing <lidaobing@debian.org>  Sun, 05 Jun 2011 11:30:43 +0800
+ -- LI Daobing <lidaobing@debian.org>  Sun, 05 Jun 2011 11:37:02 +0800
 
 fortune-zh (1.8) unstable; urgency=low
 
