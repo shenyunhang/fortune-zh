@@ -10,8 +10,11 @@ fortune-zh (1.9) unstable; urgency=low
     - debian/rules: updated.
     - debian/compat: added.
     - debian/control: update build depends.
+  * debian/README.debian:
+    - fix typo
+    - change encoding to UTF-8.
 
- -- LI Daobing <lidaobing@debian.org>  Sun, 05 Jun 2011 11:19:49 +0800
+ -- LI Daobing <lidaobing@debian.org>  Sun, 05 Jun 2011 11:20:19 +0800
 
 fortune-zh (1.8) unstable; urgency=low
 

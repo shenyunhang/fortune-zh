@@ -1,24 +1,24 @@
 fortune-zh for Debian
 ----------------------
-(This document contains Chinese text in GB2312 encoding.)
+(This document contains Chinese text in UTF-8 encoding.)
 
-Õâ¸öÈí¼ş°ü°üº¬ÁËfortuneÈí¼şµÄÖĞÎÄÊı¾İÎÄ¼şºÍÒ»¸ö¼òµ¥ÓÃÀ´´¦ÀíÖĞÎÄ±àÂëµÄ½Å±¾¡£
-Êı¾İÎÄ¼ş°üÀ¨ÁËtang300¡ª¡ª¡¶ÌÆÊ«300Ê×¡·ºÍÆäËüÖĞ¹ú¹ÅµäÊ«´Ê¡£
+è¿™ä¸ªè½¯ä»¶åŒ…åŒ…å«äº†fortuneè½¯ä»¶çš„ä¸­æ–‡æ•°æ®æ–‡ä»¶å’Œä¸€ä¸ªç®€å•ç”¨æ¥å¤„ç†ä¸­æ–‡ç¼–ç çš„è„šæœ¬ã€‚
+æ•°æ®æ–‡ä»¶åŒ…æ‹¬äº†tang300â€•â€•ã€Šå”è¯—300é¦–ã€‹å’Œå…¶å®ƒä¸­å›½å¤å…¸è¯—è¯ã€‚
 
 This software package contians the chinese data files for fortune and a simple
 script to handle the chinese encoding conversion. Those libraries are
 tang300 -- Tang's_300_Poems and other chinese classical poetry.
 
-Äú¿ÉÒÔÊ¹ÓÃ fortune-zh ½Å±¾À´×Ô¶¯µ÷ÓÃÕâĞ©Êı¾İ¿â£¬µ±È»Ò²¿ÉÒÔÊÖ¹¤Ê¹ÓÃ
-fortune-zh tang300 ¼° fortune-zh song100µÈµ¥¶Àµ÷ÓÃÈÎºÎÒ»¸ö¿â¡£ fortune-zh
-¿ÉÒÔ×Ô¶¯ÅĞ¶ÏÄúµ±Ç°µÄ±àÂë£¬¸ù¾İĞèÒªµ÷ÓÃ zh-autoconvert ½øĞĞ±àÂë×ª»»¡£
+æ‚¨å¯ä»¥ä½¿ç”¨ fortune-zh è„šæœ¬æ¥è‡ªåŠ¨è°ƒç”¨è¿™äº›æ•°æ®åº“ï¼Œå½“ç„¶ä¹Ÿå¯ä»¥æ‰‹å·¥ä½¿ç”¨
+fortune-zh tang300 åŠ fortune-zh song100ç­‰å•ç‹¬è°ƒç”¨ä»»ä½•ä¸€ä¸ªåº“ã€‚ fortune-zh
+å¯ä»¥è‡ªåŠ¨åˆ¤æ–­æ‚¨å½“å‰çš„ç¼–ç ï¼Œæ ¹æ®éœ€è¦è°ƒç”¨ zh-autoconvert è¿›è¡Œç¼–ç è½¬æ¢ã€‚
 
-±ä¸ü(20040212 by ygh@debian.org):
-fortune-zh ½Å±¾²»ÔÙÊÇ±ØĞëµÄÁË, ÖĞÎÄfortunesÏÖÔÚÊ¹ÓÃ utf8 ±àÂë. fortune¿ÉÒÔ¸ù¾İ
-locale ×Ô¶¯×ªÂë. fortune-zh½Å±¾ÈÔÈ»±£Áô, µ«ÊÇ²»½¨ÒéÊ¹ÓÃ.
+å˜æ›´(20040212 by ygh@debian.org):
+fortune-zh è„šæœ¬ä¸å†æ˜¯å¿…é¡»çš„äº†, ä¸­æ–‡fortunesç°åœ¨ä½¿ç”¨ utf8 ç¼–ç . fortuneå¯ä»¥æ ¹æ®
+locale è‡ªåŠ¨è½¬ç . fortune-zhè„šæœ¬ä»ç„¶ä¿ç•™, ä½†æ˜¯ä¸å»ºè®®ä½¿ç”¨.
 
-±ä¸ü(20040213 by ygh@debian.org):
-Big5ÓÃ»§½¨ÒéÔÚrecode×ª»»utf8µ½big5È±×ÖÎÊÌâ½â¾öÇ°¼ÌĞøÊ¹ÓÃfortune-zh½Å±¾.
+å˜æ›´(20040213 by ygh@debian.org):
+Big5ç”¨æˆ·å»ºè®®åœ¨recodeè½¬æ¢utf8åˆ°big5ç¼ºå­—é—®é¢˜è§£å†³å‰ç»§ç»­ä½¿ç”¨fortune-zhè„šæœ¬.
 
 You can use the fortune-zh script to call the libraries. Of cause, you
 also can manually run such as "fortune tang300" or "fortune song100" ...
@@ -28,7 +28,7 @@ conversion according your locale setting.
 Changed(20040212 by ygh@debian.org):
 fortune-zh script isn't required. New Chinese fortunes were encoded as utf8.
 fortune can recode them according to your locale. fortune was kept for compa-
-tibility, but not recommanded.
+tibility, but not recommended.
 
 Changed(20040213 by ygh@debian.org):
 Chinese Big5 users should better continue use fortune-zh script util the
