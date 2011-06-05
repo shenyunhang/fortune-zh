@@ -16,8 +16,9 @@ fortune-zh (1.9) unstable; urgency=low
   * Makefile: 
     - create dest dir first.
     - don't raise error when clean.
+  * debian/rules: updated. 
 
- -- LI Daobing <lidaobing@debian.org>  Sun, 05 Jun 2011 11:23:02 +0800
+ -- LI Daobing <lidaobing@debian.org>  Sun, 05 Jun 2011 11:24:14 +0800
 
 fortune-zh (1.8) unstable; urgency=low
 
