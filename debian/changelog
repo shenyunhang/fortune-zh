@@ -13,9 +13,11 @@ fortune-zh (1.9) unstable; urgency=low
   * debian/README.debian:
     - fix typo
     - change encoding to UTF-8.
-  * Makefile: create dest dir first. 
+  * Makefile: 
+    - create dest dir first.
+    - don't raise error when clean.
 
- -- LI Daobing <lidaobing@debian.org>  Sun, 05 Jun 2011 11:21:10 +0800
+ -- LI Daobing <lidaobing@debian.org>  Sun, 05 Jun 2011 11:23:02 +0800
 
 fortune-zh (1.8) unstable; urgency=low
 

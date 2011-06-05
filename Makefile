@@ -6,9 +6,9 @@ tang300.dat:tang300
 song100.dat:song100
 	strfile $< song100.dat
 distclean:
-	rm *dat
+	rm -f *dat
 clean:
-	rm *dat
+	rm -f *dat
 
 install: all
 	mkdir -p $(DESTDIR)/usr/share/games/fortunes
