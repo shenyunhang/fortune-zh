@@ -4,8 +4,9 @@ fortune-zh (1.9) unstable; urgency=low
   * debian/control:
     - bump standards version to 3.9.2.
     - add Vcs-* fields. 
+    - update description.
 
- -- LI Daobing <lidaobing@debian.org>  Sun, 05 Jun 2011 11:10:43 +0800
+ -- LI Daobing <lidaobing@debian.org>  Sun, 05 Jun 2011 11:11:32 +0800
 
 fortune-zh (1.8) unstable; urgency=low
 

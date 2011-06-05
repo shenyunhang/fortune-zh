@@ -15,5 +15,6 @@ Depends: fortune-mod, zh-autoconvert
 Description: Chinese Data files for fortune
  This software package contains the Chinese data files for fortune in
  utf8 encoding.
+ .
  Those libraries included tang300 -- 300_Tang_Poems and other Chinese 
  classical poetry.
