@@ -1,0 +1,15 @@
+Source: fortune-zh
+Section: games
+Build-Depends: debhelper (>= 2.0.72),fortune-mod
+Priority: optional
+Maintainer: Yu Guanghui <ygh@debian.org>
+Standards-Version: 3.5.1
+
+Package: fortune-zh
+Architecture: any
+Depends: fortune-mod, zh-autoconvert
+Description: Chinese Data files for fortune
+ This software package contains the Chinese data files for fortune in
+ utf8 encoding.
+ Those libraries included tang300 -- 300_Tang_Poems and other Chinese 
+ classical poetry.

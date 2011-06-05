@@ -1,0 +1,51 @@
+fortune-zh (1.6) unstable; urgency=low
+
+  * recode has issues when convert utf8 to big5. Modified fortune-zh
+    as workaround. Suggest big5 users continue use fortune-zh until
+    recode's issues is fixed.
+
+ -- Yu Guanghui <ygh@debian.org>  Fri, 13 Feb 2004 18:06:15 +0800
+
+fortune-zh (1.5) unstable; urgency=low
+
+  * Fixed old spell errors.(closes:Bug#124628, Bug#120803) 
+  * Converted data files to utf8, fortune can recode. fortune-zh isn't 
+    required, but it's still kept for compatibility. (closes:Bug#204380)
+
+ -- Yu Guanghui <ygh@debian.org>  Thu, 12 Feb 2004 20:19:27 +0800
+
+fortune-zh (1.4) unstable; urgency=low
+
+  * New release. 
+
+ -- Yu Guanghui <ygh@debian.org>  Mon,  5 Mar 2001 21:09:54 +0800
+
+fortune-zh (1.3) unstable; urgency=low
+
+  * Fixed debian/rules, do nothing under binary-indep. (closes:Bug#88581) 
+
+ -- Yu Guanghui <ygh@debian.org>  Mon,  5 Mar 2001 18:06:43 +0800
+
+fortune-zh (1.2) unstable; urgency=low
+
+  * Added depend on zh-autoconvert. 
+
+ -- Yu Guanghui <ygh@debian.org>  Sun,  4 Mar 2001 18:42:12 +0800
+
+fortune-zh (1.1) unstable; urgency=low
+
+  * Modified fortune-zh script.
+  * Temporarily remove smth-joke from this packages, it will be back
+    after adjustment.
+
+ -- Yu Guanghui <ygh@debian.org>  Sun,  4 Mar 2001 10:07:34 +0800
+
+fortune-zh (1.0) unstable; urgency=low
+
+  * Initial release.
+
+ -- Yu Guanghui <ygh@debian.org>  Thu,  1 Mar 2001 00:21:15 +0800
+
+Local variables:
+mode: debian-changelog
+End:

@@ -1,0 +1,21 @@
+#!/bin/bash
+
+DICT="75% tang300 25% song100"
+FORTUNE="/usr/games/fortune"
+
+if [ ! -z $LC_ALL ] 
+then 
+	LANG="$LC_ALL"
+fi
+
+case "$LANG" in
+"zh_CN.GB2312")
+	$FORTUNE  $DICT
+	;;
+"zh_TW.Big5")
+	LC_ALL=zh_CN.GB2312 $FORTUNE $DICT | autob5 
+	;;
+	*)
+	$FORTUNE  $DICT 
+	;;
+esac
