@@ -1,16 +1,14 @@
 Source: fortune-zh
 Section: games
-Build-Depends: debhelper (>= 7), fortune-mod
+Build-Depends: debhelper (>= 9), fortune-mod
 Priority: optional
-Maintainer: Debian Chinese Team <chinese-developers@lists.alioth.debian.org>
-Uploaders:
- LI Daobing <lidaobing@debian.org>
-Standards-Version: 3.9.2
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Standards-Version: 3.9.5
 Vcs-Git: git://anonscm.debian.org/chinese/fortune-zh.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=chinese/fortune-zh.git
 
 Package: fortune-zh
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, fortune-mod, zh-autoconvert
 Description: Chinese Data files for fortune
  This software package contains the Chinese data files for fortune in

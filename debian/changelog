@@ -1,3 +1,16 @@
+fortune-zh (1.10) unstable; urgency=low
+
+  * QA upload.
+  * Really set Architecture field to 'all'. (Closes: #518054)
+  * Build package in binary-indep.
+  * Add missing targets build-{arch,indep}.
+  * Maintainer field set to QA Group.
+  * Drop Uploaders field.
+  * Bump Standards-Version to 3.9.5.
+  * Set debhelper compatibility level to 9.
+
+ -- Emanuele Rocca <ema@debian.org>  Mon, 20 Jan 2014 23:14:42 +0100
+
 fortune-zh (1.9) unstable; urgency=low
 
   * New maintainer.
