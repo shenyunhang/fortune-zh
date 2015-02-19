@@ -2,7 +2,7 @@ Source: fortune-zh
 Section: games
 Build-Depends: debhelper (>= 9), fortune-mod
 Priority: optional
-Maintainer: Debian QA Group <packages@qa.debian.org>
+Maintainer: Zhou Mo <cdluminate@gmail.com>
 Standards-Version: 3.9.5
 Vcs-Git: git://anonscm.debian.org/chinese/fortune-zh.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=chinese/fortune-zh.git
