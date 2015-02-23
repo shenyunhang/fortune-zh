@@ -1,4 +1,4 @@
-fortune-zh (1.11) UNRELEASED; urgency=low
+fortune-zh (1.11) unstable; urgency=low
 
   * New maintainer.
   * tang300:
@@ -13,11 +13,11 @@ fortune-zh (1.11) UNRELEASED; urgency=low
     - enabled data file "shijing".
   * debian/control:
     - update description.
-    - remove dependency on zh-autoconvert, put libc-bin instead.
+    - remove dependency on zh-autoconvert, use iconv instead.
   * fortune-zh:
-    - remove dependency on zh-zutoconvert, use libc-bin instead.
+    - remove dependency on zh-zutoconvert, use iconv instead.
 
- -- Zhou Mo <cdluminate@gmail.com>  Thu, 19 Feb 2015 11:59:14 +0000
+ -- Zhou Mo <cdluminate@gmail.com>  Mon, 23 Feb 2015 11:41:47 +0000
 
 fortune-zh (1.10) unstable; urgency=low
 
