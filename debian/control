@@ -9,7 +9,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=chinese/fortune-zh.git
 
 Package: fortune-zh
 Architecture: all
-Depends: ${misc:Depends}, fortune-mod, zh-autoconvert
+Depends: ${misc:Depends}, libc-bin, fortune-mod
 Description: Chinese Data files for fortune
  This package contains the Chinese data files for fortune in
  UTF-8 encoding.

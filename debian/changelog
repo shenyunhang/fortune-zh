@@ -13,6 +13,9 @@ fortune-zh (1.11) UNRELEASED; urgency=low
     - enabled data file "shijing".
   * debian/control:
     - update description.
+    - remove dependency on zh-autoconvert, put libc-bin instead.
+  * fortune-zh:
+    - remove dependency on zh-zutoconvert, use libc-bin instead.
 
  -- Zhou Mo <cdluminate@gmail.com>  Thu, 19 Feb 2015 11:59:14 +0000
 
