@@ -3,7 +3,7 @@ fortune-zh (1.11) UNRELEASED; urgency=low
   * New maintainer.
   * tang300:
     - fixed a few characters.
-  * Added new manpage fortune-zh(6).
+  * Added new manpage man/fortune-zh(6).
   * debian/source/format:
     - Switched to dpkg-source 3.0 (native) format.
   * shijing:
