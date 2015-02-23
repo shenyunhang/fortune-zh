@@ -7,6 +7,8 @@ fortune-zh \- Chinese Data files for fortune
 
 .SH SYNOPSIS
 .B fortune-zh
+.br
+.B fortune <DATAFILE>
 
 .SH DESCRIPTION
 fortune-zh is a simple shell script that invokes fortune with Chinese data files,
@@ -22,16 +24,20 @@ instead of
 $ fortune-zh
 .RE
 
+.SH AVAILABLE DATAFILES
+.B tang300
+.B song100
+.B shijing
+
 .SH OPTIONS
 There is \fBno\fP option for fortune-zh.
 
 .SH FILES
 .TP
-/usr/share/games/fortunes/tang300
-.TP
-/usr/share/games/fortunes/song100
+/usr/share/games/fortunes/{tang300,song100,shijing}
 
 .SH SEE ALSO
 .BR fortune-mod (6)
-.SH MANPAGE
-This manpage was written by Zhou Mo <cdluminate@gmail.com>, 2015.
+
+.SH MANPAGE BY
+Zhou Mo <cdluminate@gmail.com>, 2015.

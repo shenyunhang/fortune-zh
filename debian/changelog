@@ -1,9 +1,16 @@
 fortune-zh (1.11) UNRELEASED; urgency=low
 
   * New maintainer.
-  * Fixed a few characters.
-  * Add new manpage fortune-zh(6).
-  * Switch to dpkg-source 3.0 (native) format.
+  * tang300:
+    - fixed a few characters.
+  * Added new manpage fortune-zh(6).
+  * debian/source/format:
+    - Switched to dpkg-source 3.0 (native) format.
+  * shijing:
+    - converted from shijing.gb to UTF-8 encoding.
+  * Makefile:
+    - updated.
+    - enabled data file "shijing".
 
  -- Zhou Mo <cdluminate@gmail.com>  Thu, 19 Feb 2015 11:59:14 +0000
 
