@@ -1,11 +1,9 @@
-fortune-zh (1.11) UNRELEASED; urgency=medium
+fortune-zh (1.11) UNRELEASED; urgency=low
 
   * New maintainer.
-  * Re-apply changes in 1c9a00041c21a10718571dd3495697eed6402965,
-    "fix a few characters" because it was overwriten by the merger
-    of 1.10's QA update.
-  * Add new manpage "fortune-zh.6".
-  * Switch to dpkg-source 3.0 (native) format
+  * Fixed a few characters.
+  * Add new manpage fortune-zh(6).
+  * Switch to dpkg-source 3.0 (native) format.
 
  -- Zhou Mo <cdluminate@gmail.com>  Thu, 19 Feb 2015 11:59:14 +0000
 
