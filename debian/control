@@ -11,8 +11,12 @@ Package: fortune-zh
 Architecture: all
 Depends: ${misc:Depends}, fortune-mod, zh-autoconvert
 Description: Chinese Data files for fortune
- This software package contains the Chinese data files for fortune in
- utf8 encoding.
+ This package contains the Chinese data files for fortune in
+ UTF-8 encoding.
  .
- Those libraries included tang300 -- 300_Tang_Poems and other Chinese 
- classical poetry.
+ Those data files included:
+  * tang300 (300_Tang_Poems)
+  * song100 (100_Song_Poems)
+  * shijing (Shi_Jing)
+ .
+ They are all classical Chinese poems.

@@ -11,6 +11,8 @@ fortune-zh (1.11) UNRELEASED; urgency=low
   * Makefile:
     - updated.
     - enabled data file "shijing".
+  * debian/control:
+    - update description.
 
  -- Zhou Mo <cdluminate@gmail.com>  Thu, 19 Feb 2015 11:59:14 +0000
 
