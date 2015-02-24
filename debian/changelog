@@ -1,9 +1,18 @@
+fortune-zh (1.12) UNRELEASED; urgency=low
+
+  * fortune-zh:
+    - handle environment LANG properly.
+  * Specify dependency on libc (>=2.1.1) explicitly:
+    - debian/control: updated.
+
+ -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 00:59:15 +0000
+
 fortune-zh (1.11) unstable; urgency=low
 
   * New maintainer.
   * tang300:
     - fixed a few characters.
-  * Added new manpage man/fortune-zh(6).
+  * Added new manpage fortune-zh(6).
   * debian/source/format:
     - Switched to dpkg-source 3.0 (native) format.
   * shijing:
