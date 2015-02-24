@@ -2,7 +2,7 @@ DESTDIR=
 FORTUNES=/usr/share/games/fortunes
 GAMES=/usr/games
 
-DATA=tang300.dat song100.dat shijing.dat
+DATA=tang300.dat song100.dat
 all: $(DATA)
 
 tang300.dat:tang300
@@ -30,6 +30,6 @@ install: all
 	cp -d  song100.u8 $(DESTDIR)$(FORTUNES)
 	install -m0644  song100.dat $(DESTDIR)$(FORTUNES)
 	
-	install -m0644 shijing $(DESTDIR)$(FORTUNES)
-	cp -d shijing.u8 $(DESTDIR)$(FORTUNES)
-	install -m0644 shijing.dat $(DESTDIR)$(FORTUNES)
+#	install -m0644 shijing $(DESTDIR)$(FORTUNES)
+#	cp -d shijing.u8 $(DESTDIR)$(FORTUNES)
+#	install -m0644 shijing.dat $(DESTDIR)$(FORTUNES)
