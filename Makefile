@@ -27,6 +27,7 @@ install: all
 	mkdir -p $(DESTDIR)$(FORTUNES)
 	mkdir -p $(DESTDIR)$(GAMES)
 	install -m0755  fortune-zh $(DESTDIR)$(GAMES)
+	install -m0755  fortune-zh.old $(DESTDIR)$(GAMES)
 	
 	install -m0644  tang300 $(DESTDIR)$(FORTUNES)
 	cp -d  tang300.u8 $(DESTDIR)$(FORTUNES)
