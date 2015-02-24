@@ -12,10 +12,10 @@ fi
 
 case "$LANG" in
 "zh_CN.GB2312")
-	$FORTUNE $DICT | iconv -f utf8 -t gbk
+	LANG=zh_CN.UTF8 $FORTUNE $DICT | iconv -c -f utf8 -t gbk
 	;;
 "zh_TW.Big5")
-	$FORTUNE $DICT | iconv -f utf8 -t big5
+	LANG=zh_TW.UTF8 $FORTUNE $DICT | iconv -c -f utf8 -t big5
 	;;
 *)
 	$FORTUNE $DICT 
