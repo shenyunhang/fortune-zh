@@ -1,5 +1,6 @@
 fortune-zh (2.1) UNRELEASED; urgency=medium
 
+  * New release.
   * Add new Chinese Data files:
     - mingyan
     - yanyu
