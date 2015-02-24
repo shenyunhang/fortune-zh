@@ -17,7 +17,7 @@ shijing.dat:shijing
 mingyan.dat:mingyan
 	strfile $< mingyan.dat
 yanyu.dat:yanyu
-	strfile $< mingyan.dat
+	strfile $< yanyu.dat
 
 distclean:
 	rm -f *dat
