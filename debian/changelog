@@ -11,6 +11,8 @@ fortune-zh (2.1) UNRELEASED; urgency=medium
     - fortune-zh.old: reserved old version,
       which invokes tang300 and song100 only.
     - fortune-zh: updated.
+  * debian/control:
+    - updated description.
 
  -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 04:21:05 +0000
 
