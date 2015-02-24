@@ -1,4 +1,4 @@
-fortune-zh (1.13) UNRELEASED; urgency=low
+fortune-zh (1.13) unstable; urgency=low
 
   * Disable data file "shijing"
     - fortune-zh: updated
@@ -6,7 +6,7 @@ fortune-zh (1.13) UNRELEASED; urgency=low
     - man/fortune-zh.6: updated
     - Makefile: updated
 
- -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 06:45:07 +0000
+ -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 06:47:51 +0000
 
 fortune-zh (1.12) unstable; urgency=low
 
