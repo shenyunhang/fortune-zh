@@ -2,8 +2,12 @@ DESTDIR=
 FORTUNES=/usr/share/games/fortunes
 GAMES=/usr/games
 
-DATA=tang300.dat song100.dat shijing.dat
+DATA=tang300.dat song100.dat shijing.dat mingyan.dat
+DATAFILES=tang300 song100 shijing mingyan
 all: $(DATA)
+
+stat:
+	bash util/statistic.sh
 
 tang300.dat:tang300
 	strfile $< tang300.dat
@@ -11,6 +15,8 @@ song100.dat:song100
 	strfile $< song100.dat
 shijing.dat:shijing
 	strfile $< shijing.dat
+mingyan.dat:mingyan
+	strfile $< mingyan.dat
 
 distclean:
 	rm -f *dat
@@ -33,3 +39,8 @@ install: all
 	install -m0644 shijing $(DESTDIR)$(FORTUNES)
 	cp -d shijing.u8 $(DESTDIR)$(FORTUNES)
 	install -m0644 shijing.dat $(DESTDIR)$(FORTUNES)
+	
+	install -m0644 mingyan $(DESTDIR)$(FORTUNES)
+	cp -d mingyan.u8 $(DESTDIR)$(FORTUNES)
+	install -m0644 mingyan.dat $(DESTDIR)$(FORTUNES)
+
