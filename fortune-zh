@@ -2,7 +2,7 @@
 
 set -e
 
-DICT="70% tang300 20% song100 10% mingyan"
+DICT="57% tang300 18% song100 15% mingyan 10% yanyu"
 FORTUNE="/usr/games/fortune"
 
 if [ ! -z $LC_ALL ] 
