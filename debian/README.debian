@@ -35,3 +35,15 @@ Chinese Big5 users should better continue use fortune-zh script util the
 lost characters issue of recode is fixed.
 
 Yu Guanghui <ygh@debian.org>, Thu,  1 Mar 2001 00:21:15 +0800
+
+
+变更(20150224 by Zhou Mo <cdluminate@gmail.com>):
+* 增加了名言（mingyan）等数据文件，并添加到fortune-zh脚本中
+* 旧版本fortune-zh保留为fortune-zh.old，与新版安装在同一个目录下，
+  其中所谓旧版本指仅调用tang300和song100两个数据文件
+
+Changed(20150225 by Zhou Mo <cdluminate@gmail.com>):
+* added data files such as "mingyan", and added them to script fortune-zh
+* the old fortune-zh was reserved as fortune-zh.old, and was placed together
+  with the new fortune-zh script. Here the "old version" means that
+  it only invokes tang300 and song100 these 2 data files.
