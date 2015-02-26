@@ -16,7 +16,7 @@ shijing.dat:shijing
 	strfile $< shijing.dat
 mingyan.dat:mingyan.d/*
 	cat mingyan.d/* > mingyan
-	strfile $< mingyan.dat
+	strfile mingyan
 yanyu.dat:yanyu
 	strfile $< yanyu.dat
 
