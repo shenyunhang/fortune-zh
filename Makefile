@@ -39,9 +39,9 @@ install: all
 	cp -d  song100.u8 $(DESTDIR)$(FORTUNES)
 	install -m0644  song100.dat $(DESTDIR)$(FORTUNES)
 	
-	install -m0644 shijing $(DESTDIR)$(FORTUNES)
-	cp -d shijing.u8 $(DESTDIR)$(FORTUNES)
-	install -m0644 shijing.dat $(DESTDIR)$(FORTUNES)
+#	install -m0644 shijing $(DESTDIR)$(FORTUNES)
+#	cp -d shijing.u8 $(DESTDIR)$(FORTUNES)
+#	install -m0644 shijing.dat $(DESTDIR)$(FORTUNES)
 	
 	install -m0644 mingyan $(DESTDIR)$(FORTUNES)
 	cp -d mingyan.u8 $(DESTDIR)$(FORTUNES)
