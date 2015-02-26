@@ -14,7 +14,8 @@ song100.dat:song100
 	strfile $< song100.dat
 shijing.dat:shijing
 	strfile $< shijing.dat
-mingyan.dat:mingyan
+mingyan.dat:mingyan.d/*
+	cat mingyan.d/* > mingyan
 	strfile $< mingyan.dat
 yanyu.dat:yanyu
 	strfile $< yanyu.dat
