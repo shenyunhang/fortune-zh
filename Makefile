@@ -2,8 +2,7 @@ DESTDIR=
 FORTUNES=/usr/share/games/fortunes
 GAMES=/usr/games
 
-#DATA=tang300.dat song100.dat shijing.dat mingyan.dat yanyu.dat
-DATA=tang300.dat song100.dat mingyan.dat yanyu.dat
+DATA=tang300.dat song100.dat chinese.dat
 all: $(DATA)
 
 stat:
@@ -15,16 +14,16 @@ song100.dat:song100
 	strfile $< song100.dat
 shijing.dat:shijing
 	strfile $< shijing.dat
-mingyan.dat:mingyan.d/*
-	cat mingyan.d/* > mingyan
-	strfile mingyan
-yanyu.dat:yanyu
-	strfile $< yanyu.dat
+chinese.dat:ch.d/mingyan.d/*
+	cat ch.d/mingyan.d/* > chinese
+	cat ch.d/*.txt >> chinese
+	strfile chinese
 
 distclean:
-	rm -f *dat
+	-rm -f *dat
 clean:
-	rm -f *dat
+	-rm -f *dat
+	-rm chinese
 
 install: all
 	mkdir -p $(DESTDIR)$(FORTUNES)

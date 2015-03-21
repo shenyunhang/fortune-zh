@@ -4,7 +4,7 @@
 
 #set -e
 
-DICT="tang300 song100 shijing yanyu wenyan mingyan"
+DICT="tang300 song100 chinese"
 
 for ITEM in ${DICT}; do
 	printf "%2s${ITEM}:\t" 
