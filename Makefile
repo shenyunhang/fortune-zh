@@ -6,7 +6,9 @@ DATA=tang300.dat song100.dat chinese.dat
 all: $(DATA)
 
 stat:
+	make chinese.dat
 	bash util/statistic.sh
+	make clean 1>/dev/null
 
 tang300.dat:tang300
 	strfile $< tang300.dat
