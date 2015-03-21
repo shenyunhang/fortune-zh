@@ -1,8 +1,8 @@
 fortune-zh (2.0) UNRELEASED; urgency=medium
 
   * New release.
-  * Add new Chinese Data files:
-    - mingyan, yanyu, wenyan
+  * Add new Chinese Data file:
+  	- chinese
   * Updated debian/copyright
   * Updated README.debian
   * Updated fortune-zh with new files.

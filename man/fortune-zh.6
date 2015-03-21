@@ -6,43 +6,35 @@
 fortune-zh \- Chinese Data files for fortune
 
 .SH SYNOPSIS
-.B fortune-zh
+.B fortune-zh [old]
 .br
 .B fortune <DATAFILE>
+
+.SH OPTIONS
+.I old
+Only show the content in tang300 and song100.
 
 .SH DESCRIPTION
 fortune-zh is a simple shell script that invokes fortune with Chinese data files,
 while the package "fortune-zh" contains mainly the Chinese Data files, including
 some Chinese classical poetries.
-.P
-However, we recommend the use of 
+
+.SH EXAMPLE
 .RS
-$ fortune <DATAFILE>
-.RE
-instead of
-.RS
-$ fortune-zh
-.RE
-.P
-For example:
-.br
-.RS
+# this is the same as $ fortune-zh
 $ fortune 75% tang300 25% song100
 .br
-$ fortune shijing
+$ fortune-zh
 .RE
 
 .SH AVAILABLE DATAFILES
 .B tang300
 .B song100
-.B shijing
-
-.SH OPTIONS
-There is \fBno\fP option for fortune-zh.
+.B chinese
 
 .SH FILES
 .TP
-/usr/share/games/fortunes/{tang300,song100,shijing}
+/usr/share/games/fortunes/{tang300,song100,chinese}
 
 .SH SEE ALSO
 .BR fortune(6)

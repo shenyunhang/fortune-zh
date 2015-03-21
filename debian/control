@@ -17,10 +17,7 @@ Description: Chinese Data files for fortune
  Those data files included:
   * tang300 (300 Tang Poems)
   * song100 (100 Song Poems)
-  * shijing (Shi Jing)
-  * mingyan (Ming Yan)
-  * yanyu   (Yan Yu)
-  * wenyan  (Wen Yan Wen)
+  * chinese (Misc chinese cookie)
  .
  They are classical Chinese poems or Chinese literature, 
  all of them are a part of Chinese culture.
