@@ -5,9 +5,7 @@ fortune-zh (2.0) UNRELEASED; urgency=medium
     - mingyan, yanyu, wenyan
   * Updated debian/copyright
   * Updated README.debian
-  * Update fortune-zh with new files.
-  * Reverve an old version of fortune-zh:
-    - fortune-zh.old, which invokes tang300 and song100 only.
+  * Updated fortune-zh with new files.
   * Updated description in debian/control.
 
  -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 04:21:05 +0000
