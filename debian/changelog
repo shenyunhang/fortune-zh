@@ -2,19 +2,25 @@ fortune-zh (2.0) UNRELEASED; urgency=medium
 
   * New release.
   * Add new Chinese Data files:
-    - mingyan
-    - yanyu
-    - wenyan
-  * debian/copyright: updated
-  * README.debian: updated
-  * Update fortune-zh with new files:
-    - fortune-zh.old: reserved old version,
-      which invokes tang300 and song100 only.
-    - fortune-zh: updated.
-  * debian/control:
-    - updated description.
+    - mingyan, yanyu, wenyan
+  * Updated debian/copyright
+  * Updated README.debian
+  * Update fortune-zh with new files.
+  * Reverve an old version of fortune-zh:
+    - fortune-zh.old, which invokes tang300 and song100 only.
+  * Updated description in debian/control.
 
  -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 04:21:05 +0000
+
+fortune-zh (1.13) unstable; urgency=low
+
+  * Disable data file "shijing"
+    - fortune-zh: updated
+    - debian/control: updated
+    - man/fortune-zh.6: updated
+    - Makefile: updated
+
+ -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 06:47:51 +0000
 
 fortune-zh (1.12) unstable; urgency=low
 

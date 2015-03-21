@@ -2,7 +2,8 @@ DESTDIR=
 FORTUNES=/usr/share/games/fortunes
 GAMES=/usr/games
 
-DATA=tang300.dat song100.dat shijing.dat mingyan.dat yanyu.dat
+#DATA=tang300.dat song100.dat shijing.dat mingyan.dat yanyu.dat
+DATA=tang300.dat song100.dat mingyan.dat yanyu.dat
 all: $(DATA)
 
 stat:
@@ -50,4 +51,3 @@ install: all
 	install -m0644 yanyu $(DESTDIR)$(FORTUNES)
 	cp -d yanyu.u8 $(DESTDIR)$(FORTUNES)
 	install -m0644 yanyu.dat $(DESTDIR)$(FORTUNES)
-
