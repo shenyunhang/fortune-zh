@@ -5,7 +5,7 @@ fortune-zh (2.0) UNRELEASED; urgency=medium
   	- chinese
   * Updated debian/copyright
   * Updated README.debian
-  * Updated fortune-zh with new files.
+  * Updated fortune-zh with new cookies.
   * Updated description in debian/control.
 
  -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 04:21:05 +0000
