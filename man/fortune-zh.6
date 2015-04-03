@@ -6,18 +6,26 @@
 fortune-zh \- Chinese Data files for fortune
 
 .SH SYNOPSIS
-.B fortune-zh [old]
+.B fortune-zh [ old | new ]
 .br
 .B fortune <DATAFILE>
+
+.SH DESCRIPTION
+\fIfortune-zh\fR is a simple shell script that invokes \fIfortune\fR with Chinese data files 
+and their preset proportions.
+.PP
+When execute \fIfortune-zh\fR without args, it would use all available data files of 
+fortune-zh. If you want to change this behaviour, please consider the use of options
+below or directly invoke \fIfortune\fR with proper proportions by your self.
 
 .SH OPTIONS
 .TP
 \fBold\fR
-Only show the content in tang300 and song100.
+Only show cookies in \fBtang300\fR and \fBsong100\fR.
 
-.SH DESCRIPTION
-\fBfortune-zh\fR is a simple shell script that invokes \fBfortune\fR with Chinese data files 
-and their preset proportions.
+.TP
+\fBnew\fR
+Only show cookies in \fBchinese\fR.
 
 .SH DATAFILE
 .TP
