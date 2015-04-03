@@ -1,7 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 # fortune-zh
-#   a simple script that invokes fortune with
-#   Chinese cookies.
+#   invokes fortune with Chinese cookies.
 
 set -e
 
