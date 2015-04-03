@@ -9,6 +9,7 @@ FORTUNE="/usr/games/fortune"
 # the old version of fortune-zh only show tang300 and song100
 DICT="50% tang300 15% song100 35% chinese"
 DICT_OLD="75% tang300 25% song100"
+DICT_NEW="chinese"
 # default settings
 USE_DICT=${DICT}
 
@@ -22,6 +23,9 @@ if [ ! -z $1 ]; then
 	case "$1" in
 	"old")
 		USE_DICT=${DICT_OLD}
+		;;
+	"new")
+		USE_DICT=${DICT_NEW}
 		;;
 	*)
 		;;
