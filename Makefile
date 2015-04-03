@@ -17,8 +17,9 @@ song100.dat:song100
 shijing.dat:shijing
 	strfile $< shijing.dat
 chinese.dat:
-	cat ch.d/mingyan.d/* > chinese
-	cat ch.d/*.txt >> chinese
+	touch chinese
+	cat chinese.d/mingyan.d/* >> chinese
+	cat chinese.d/*.txt >> chinese
 	strfile chinese
 
 distclean:
