@@ -18,11 +18,7 @@ shijing.dat:shijing
 	strfile $< shijing.dat
 chinese.dat:
 	touch chinese
-	cat chinese.d/mingyan.d/* >> chinese
-	cat chinese.d/lunyu.d/* >> chinese
-	cat chinese.d/daxue.d/* >> chinese
-	cat chinese.d/*.txt >> chinese
-#	find chinese.d -type f -exec cat '{}' \; | tee -a /dev/null
+	find chinese.d -type f -exec cat '{}' \; >> chinese
 	strfile chinese
 
 distclean:
