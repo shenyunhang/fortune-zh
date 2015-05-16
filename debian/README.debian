@@ -37,13 +37,23 @@ lost characters issue of recode is fixed.
 Yu Guanghui <ygh@debian.org>, Thu,  1 Mar 2001 00:21:15 +0800
 
 
-变更(20150224 by Zhou Mo <cdluminate@gmail.com>):
-* 增加了名言（mingyan）等数据文件，并添加到fortune-zh脚本中
-* 旧版本fortune-zh保留为fortune-zh.old，与新版安装在同一个目录下，
-  其中所谓旧版本指仅调用tang300和song100两个数据文件
+变更(20150516 by Zhou Mo <cdluminate@gmail.com>):
+* 增加了新的数据文件（均在chinese.d目录下），其中的cookie文件在make过程中会自动
+  合并成一个大的 chinese 文件。
+* 修改了 fortune-zh 脚本
+  - 为其添加（new|old）开关。缺省情况下 tang300 song100 chinese 三个cookie均有
+  	显示几率，而 new | old 则限定只显示 chinese | tang300+song100 的内容。
+  - 移除对 zh-autoconvert 的依赖，转而使用 iconv (libc-bin) 转换中文字符编码。
+  - 如果遇到问题可以尝试从 fortune-zh 脚本切换到 fortune 。
 
-Changed(20150225 by Zhou Mo <cdluminate@gmail.com>):
-* added data files such as "mingyan", and added them to script fortune-zh
-* the old fortune-zh was reserved as fortune-zh.old, and was placed together
-  with the new fortune-zh script. Here the "old version" means that
-  it only invokes tang300 and song100 these 2 data files.
+Changed(20150516 by Zhou Mo <cdluminate@gmail.com>):
+* Added new data files (under directory chinese.d), and those cookies under 
+  that directory mould be automaticly merged into a big data file during make.
+* Adjusted fortune-zh script
+  - Added (new|old) switch. The default action without this switch is to 
+    show cookies in tang300, song100, chinese. However the new | old switch
+	asks script to show cookies only in chinese | tang300+song100. 
+  - Drop depends on zh-autoconvert, convert chinese character encoding 
+    with iconv (from package libc-bin).
+  - if you encountered problem against fortune-zh, you could try to use 
+    fortune(6) instead of the fortune-zh script.
