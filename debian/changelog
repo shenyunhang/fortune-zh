@@ -1,13 +1,14 @@
 fortune-zh (2.0) UNRELEASED; urgency=low
 
   * New release.
-  * Add new Chinese Data file:
-  	- chinese
-  * Updated debian/copyright
-  * Updated README.debian
-  * Updated fortune-zh with new cookies.
-  * Updated description in debian/control.
-  * Updated man/fortune-zh.6
+  * Add new Chinese data file directory:
+  	- chinese.d/
+  * Add myself in debian/copyright
+  * Update README.debian
+  * Update fortune-zh (new cookie file)
+  * Update description.
+    - debian/control
+  * Update manpage.
 
  -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 04:21:05 +0000
 
