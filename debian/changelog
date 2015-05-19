@@ -1,25 +1,17 @@
 fortune-zh (1.11) UNRELEASED; urgency=low
 
-  * New maintainer.
-  * tang300:
-    - fixed a few characters.
-  * Added new manpage fortune-zh(6).
-  * debian/source/format:
-    - Switched to dpkg-source 3.0 (native) format.
-  * shijing:
-    - converted from shijing.gb to UTF-8 encoding.
-  * Makefile:
-    - updated.
-    - enabled data file "shijing".
-  * debian/control:
-    - update description.
-    - remove dependency on zh-autoconvert, put libc-bin instead.
-  * fortune-zh:
-    - remove dependency on zh-zutoconvert, use libc-bin instead.
-  * fortune-zh:
-    - handle environment LANG properly.
-  * Specify dependency on libc (>=2.1.1) explicitly:
-    - debian/control: updated.
+  * New maintainer. (Closes: #629014)
+  * Fix a few characters in tang300.
+  * Add manpage for fortune-zh(6).
+  * Switched to dpkg-source 3.0 (native) format.
+    - debian/source/format
+  * Convert shijing.gb into UTF-8 encoding.
+  * Update description.
+  * Remove dependency on zh-autoconvert, use iconv instead.
+    and specify dependency on libc (>=2.1.1) explicitly.
+    - fortune-zh, debian/control
+  * Handle environment LANG properly in fortune-zh.
+  * Update Makefile.
 
  -- Zhou Mo <cdluminate@gmail.com>  Thu, 19 Feb 2015 11:59:14 +0000
 
