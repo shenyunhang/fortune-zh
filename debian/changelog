@@ -1,4 +1,4 @@
-fortune-zh (1.11) UNRELEASED; urgency=low
+fortune-zh (1.11) unstable; urgency=low
 
   * New maintainer. (Closes: #629014)
   * Fix a few characters in tang300.
@@ -13,7 +13,7 @@ fortune-zh (1.11) UNRELEASED; urgency=low
   * Handle environment LANG properly in fortune-zh.
   * Update Makefile.
 
- -- Zhou Mo <cdluminate@gmail.com>  Thu, 19 Feb 2015 11:59:14 +0000
+ -- Zhou Mo <cdluminate@gmail.com>  Tue, 19 May 2015 06:03:14 +0000
 
 fortune-zh (1.10) unstable; urgency=low
 
