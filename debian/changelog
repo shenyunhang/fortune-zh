@@ -8,49 +8,25 @@ fortune-zh (2.0) UNRELEASED; urgency=low
   * Updated fortune-zh with new cookies.
   * Updated description in debian/control.
   * Updated man/fortune-zh.6
-  * 
 
  -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 04:21:05 +0000
 
-fortune-zh (1.13) unstable; urgency=low
-
-  * Disable data file "shijing"
-    - fortune-zh: updated
-    - debian/control: updated
-    - man/fortune-zh.6: updated
-    - Makefile: updated
-
- -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 06:47:51 +0000
-
-fortune-zh (1.12) unstable; urgency=low
-
-  * fortune-zh:
-    - handle environment LANG properly.
-  * Specify dependency on libc (>=2.1.1) explicitly:
-    - debian/control: updated.
-
- -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 01:21:57 +0000
-
 fortune-zh (1.11) unstable; urgency=low
 
-  * New maintainer.
-  * tang300:
-    - fixed a few characters.
-  * Added new manpage fortune-zh(6).
-  * debian/source/format:
-    - Switched to dpkg-source 3.0 (native) format.
-  * shijing:
-    - converted from shijing.gb to UTF-8 encoding.
-  * Makefile:
-    - updated.
-    - enabled data file "shijing".
-  * debian/control:
-    - update description.
-    - remove dependency on zh-autoconvert, use iconv instead.
-  * fortune-zh:
-    - remove dependency on zh-zutoconvert, use iconv instead.
+  * New maintainer. (Closes: #629014)
+  * Fix a few characters in tang300.
+  * Add manpage for fortune-zh(6).
+  * Switched to dpkg-source 3.0 (native) format.
+    - debian/source/format
+  * Convert shijing.gb into UTF-8 encoding.
+  * Update description.
+  * Remove dependency on zh-autoconvert, use iconv instead.
+    and specify dependency on libc (>=2.1.1) explicitly.
+    - fortune-zh, debian/control
+  * Handle environment LANG properly in fortune-zh.
+  * Update Makefile.
 
- -- Zhou Mo <cdluminate@gmail.com>  Mon, 23 Feb 2015 11:41:47 +0000
+ -- Zhou Mo <cdluminate@gmail.com>  Tue, 19 May 2015 06:03:14 +0000
 
 fortune-zh (1.10) unstable; urgency=low
 
