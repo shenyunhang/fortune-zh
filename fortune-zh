@@ -7,7 +7,7 @@ set -e
 FORTUNE="/usr/games/fortune"
 
 # the old version of fortune-zh only show tang300 and song100
-DICT="50% tang300 15% song100 35% chinese"
+DICT="18% tang300 05% song100 77% chinese"
 DICT_OLD="75% tang300 25% song100"
 DICT_NEW="chinese"
 # default settings
