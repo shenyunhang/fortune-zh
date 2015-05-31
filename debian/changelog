@@ -1,14 +1,15 @@
 fortune-zh (2.0) UNRELEASED; urgency=low
 
   * New release.
-  * Add new Chinese data file directory:
+  * Add many new Chinese data files:
   	- chinese.d/
   * Add myself in debian/copyright
   * Update README.debian
   * Update fortune-zh (new cookie file)
-  * Update description.
+  * Update package description.
     - debian/control
   * Update manpage.
+  * Fix invalid encodings in tang300 (LP: #499664)
 
  -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 04:21:05 +0000
 
