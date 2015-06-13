@@ -1,5 +1,6 @@
-fortune-zh (1.11) unstable; urgency=low
+fortune-zh (1.11) unstable; urgency=medium
 
+  [ Zhou Mo ]
   * New maintainer. (Closes: #629014)
   * Fix a few characters in tang300.
   * Add manpage for fortune-zh(6).
@@ -7,11 +8,13 @@ fortune-zh (1.11) unstable; urgency=low
     - debian/source/format
   * Convert shijing.gb into UTF-8 encoding.
   * Update description.
-  * Remove dependency on zh-autoconvert, use iconv instead.
-    and specify dependency on libc (>=2.1.1) explicitly.
-    - fortune-zh, debian/control
   * Handle environment LANG properly in fortune-zh.
   * Update Makefile.
+
+  [ Aron Xu ]
+  * Put Debian Chinese Team in Maintainer field
+  * Use dh 7 style rules
+  * Remove useless dirs file
 
  -- Zhou Mo <cdluminate@gmail.com>  Tue, 19 May 2015 06:03:14 +0000
 
