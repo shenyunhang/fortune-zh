@@ -21,8 +21,7 @@ chinese.dat:
 	find chinese.d -type f -exec cat '{}' \; >> chinese
 	strfile chinese
 
-distclean:
-	-rm -f *dat
+distclean: clean
 clean:
 	-rm -f *dat
 	-rm chinese
