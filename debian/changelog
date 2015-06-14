@@ -8,8 +8,9 @@ fortune-zh (2.0) UNRELEASED; urgency=low
   * Update fortune-zh (new cookie file)
   * Update package description.
     - debian/control
-  * Update manpage.
+  * Update manpage with new features of 2.0
   * Fix invalid encodings in tang300 (LP: #499664)
+  * Simplify Makefile.
 
  -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 04:21:05 +0000
 
