@@ -48,7 +48,7 @@ Yu Guanghui <ygh@debian.org>, Thu,  1 Mar 2001 00:21:15 +0800
 
 Changed(20150516 by Zhou Mo <cdluminate@gmail.com>):
 * Added new data files (under directory chinese.d), and those cookies under 
-  that directory mould be automaticly merged into a big data file during make.
+  that directory mould be automaticlly merged into a big data file during make.
 * Adjusted fortune-zh script
   - Added (new|old) switch. The default action without this switch is to 
     show cookies in tang300, song100, chinese. However the new | old switch
