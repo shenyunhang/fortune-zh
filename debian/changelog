@@ -1,4 +1,4 @@
-fortune-zh (2.0) UNRELEASED; urgency=low
+fortune-zh (2.0) unstable; urgency=low
 
   * New 2.X release.
   * Add many new Chinese Culture data files:
@@ -15,7 +15,7 @@ fortune-zh (2.0) UNRELEASED; urgency=low
   * Simplify Makefile, removing redundant lines.
   * Remove .u8 symlinks, and Create a fortune-zh.links to substitude them.
 
- -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 04:21:05 +0000
+ -- Zhou Mo <cdluminate@gmail.com>  Fri, 03 Jul 2015 09:32:56 +0000
 
 fortune-zh (1.11) unstable; urgency=medium
 
