@@ -13,6 +13,7 @@ fortune-zh (2.0) UNRELEASED; urgency=low
   * Update manpage describing some new features of 2.X
   * Fix invalid encodings in tang300 (LP: #499664)
   * Simplify Makefile, removing redundant lines.
+  * Remove .u8 symlinks, and Create a fortune-zh.links to substitude them.
 
  -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 04:21:05 +0000
 
