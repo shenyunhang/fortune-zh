@@ -2,16 +2,16 @@ fortune-zh for Debian
 ----------------------
 (This document contains Chinese text in UTF-8 encoding.)
 
-这个软件包包含了fortune软件的中文数据文件和一个简单用来处理中文编码的脚本。
-数据文件包括了tang300――《唐诗300首》和其它中国古典诗词。
+这个软件包包含了fortune软件的中文数据文件和一个用来处理中文编码的简单脚本。
+数据文件包括了tang300《唐诗300首》和其它中国古典诗词。
 
 This software package contians the chinese data files for fortune and a simple
 script to handle the chinese encoding conversion. Those libraries are
-tang300 -- Tang's_300_Poems and other chinese classical poetry.
+tang300 <<Tang's_300_Poems>> and other chinese classical poetry.
 
 您可以使用 fortune-zh 脚本来自动调用这些数据库，当然也可以手工使用
-fortune-zh tang300 及 fortune-zh song100等单独调用任何一个库。 fortune-zh
-可以自动判断您当前的编码，根据需要调用 zh-autoconvert 进行编码转换。
+fortune tang300 及 fortune song100等单独调用任何一个库。 fortune-zh
+可以判断您当前的编码，根据需要调用 iconv 进行编码转换。
 
 变更(20040212 by ygh@debian.org):
 fortune-zh 脚本不再是必须的了, 中文fortunes现在使用 utf8 编码. fortune可以根据
@@ -22,7 +22,7 @@ Big5用户建议在recode转换utf8到big5缺字问题解决前继续使用fortu
 
 You can use the fortune-zh script to call the libraries. Of cause, you
 also can manually run such as "fortune tang300" or "fortune song100" ...
-to call anyone. fortune-zh will call zh-autoconvert to do the encoding 
+to call anyone. fortune-zh will call iconv to do the encoding 
 conversion according your locale setting.
 
 Changed(20040212 by ygh@debian.org):
@@ -35,3 +35,25 @@ Chinese Big5 users should better continue use fortune-zh script util the
 lost characters issue of recode is fixed.
 
 Yu Guanghui <ygh@debian.org>, Thu,  1 Mar 2001 00:21:15 +0800
+
+
+变更(20150516 by Zhou Mo <cdluminate@gmail.com>):
+* 增加了新的数据文件（均在chinese.d目录下），其中的cookie文件在make过程中会自动
+  合并成一个大的 chinese 文件。
+* 修改了 fortune-zh 脚本
+  - 为其添加（ts|c）开关。缺省情况下 tang300 song100 chinese 三个cookie均有
+  	显示几率，而 [c | ts] 则限定只显示 [chinese | tang300+song100] 的内容。
+  - 移除对 zh-autoconvert 的依赖，转而使用 iconv (libc-bin) 转换中文字符编码。
+  - 如果遇到问题可以先尝试从 fortune-zh 脚本切换到 fortune，并提交一份BUG  :-)
+
+Changed(20150516 by Zhou Mo <cdluminate@gmail.com>):
+* Added new data files (under directory chinese.d), and those cookies under 
+  that directory mould be automaticlly merged into a big data file during make.
+* Adjusted fortune-zh script
+  - Added (ts|c) switch. The default action without this switch is to 
+    show cookies in tang300, song100, chinese. However the [c | ts] switch
+	asks script to show cookies only in [chinese | tang300+song100 ].
+  - Drop depends on zh-autoconvert, convert chinese character encoding 
+    with iconv (from package libc-bin).
+  - if you encountered problem with fortune-zh, you could try to use 
+    fortune(6) instead, and submit a bug :-)

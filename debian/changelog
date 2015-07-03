@@ -1,3 +1,21 @@
+fortune-zh (2.0) UNRELEASED; urgency=low
+
+  * New 2.X release.
+  * Add many new Chinese Culture data files:
+  	- chinese.d/
+  * Update debian/copyright
+    - Add myself
+    - Add the source of new contents
+  * Record the significant change of fortune-zh 2.0 in README.debian
+  * Update fortune-zh (new cookie file) with new options.
+  * Update package description.
+    - debian/control
+  * Update manpage describing some new features of 2.X
+  * Fix invalid encodings in tang300 (LP: #499664)
+  * Simplify Makefile, removing redundant lines.
+
+ -- Zhou Mo <cdluminate@gmail.com>  Tue, 24 Feb 2015 04:21:05 +0000
+
 fortune-zh (1.11) unstable; urgency=medium
 
   [ Zhou Mo ]

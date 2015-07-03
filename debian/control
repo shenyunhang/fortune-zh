@@ -15,8 +15,10 @@ Description: Chinese Data files for fortune
  This package contains the Chinese data files for fortune in
  UTF-8 encoding.
  .
- Those data files included:
-  * tang300 (300_Tang_Poems)
-  * song100 (100_Song_Poems)
+ Those data files are included:
+  * tang300 (300 Tang Poems)
+  * song100 (100 Song Poems)
+  * chinese (Misc chinese cookie)
  .
- They are all classical Chinese poems.
+ They are classical Chinese poems or Chinese literature, 
+ all of them are parts of Chinese Culture.
