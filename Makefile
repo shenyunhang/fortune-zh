@@ -13,7 +13,7 @@ stat:
 
 %.dat: %
 	strfile $< $<.dat
-chinese.dat:
+chinese.dat: 
 	touch chinese
 	find chinese.d -type f -exec cat '{}' \; >> chinese
 	strfile chinese
@@ -31,3 +31,4 @@ install: all
 #	install -m0644 shijing $(DESTDIR)$(FORTUNES)
 #	cp -d shijing.u8 $(DESTDIR)$(FORTUNES)
 #	install -m0644 shijing.dat $(DESTDIR)$(FORTUNES)
+.PHONY: install clean distclean stat all
