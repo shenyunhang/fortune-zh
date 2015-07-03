@@ -6,10 +6,10 @@ set -e
 
 FORTUNE="/usr/games/fortune"
 
-# the old version of fortune-zh only show tang300 and song100
+# the old version (1.*) of fortune-zh only has tang300 and song100
 DICT="18% tang300 05% song100 77% chinese"
-DICT_OLD="75% tang300 25% song100"
-DICT_NEW="chinese"
+DICT_TS="75% tang300 25% song100"
+DICT_C="chinese"
 # default settings
 USE_DICT=${DICT}
 
@@ -21,11 +21,11 @@ fi
 # check arg
 if [ ! -z $1 ]; then
 	case "$1" in
-	"old")
-		USE_DICT=${DICT_OLD}
+	"ts")
+		USE_DICT=${DICT_TS}
 		;;
-	"new")
-		USE_DICT=${DICT_NEW}
+	"c")
+		USE_DICT=${DICT_C}
 		;;
 	*)
 		;;
