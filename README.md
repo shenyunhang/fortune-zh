@@ -32,5 +32,5 @@ cowsay ponysay
 如果安装后不能用，则先输入：  
 `fortune -f  `  
 查看是否已经导入song100 tang300 shijing chinese的数据  
-然后修改Makefile里对应的路径再安装。  
+如果没有则修改Makefile里对应的路径再安装。  
 
