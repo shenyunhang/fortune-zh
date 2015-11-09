@@ -14,7 +14,9 @@ cowsay ponysay
 `make install`  
 
 ##用法:
-在/etc/bash.bashrc或者~/(你的shell配置文件)的最后加入：  
+`fortune -e song100 tang300 shijing chinese`
+
+登陆显示，在/etc/bash.bashrc或者~/(你的shell配置文件)的最后加入：  
 `fortune -e song100 tang300 shijing chinese`  
 `echo ''`
 
@@ -26,7 +28,7 @@ cowsay ponysay
 `fortune -e song100 tang300 shijing chinese |ponysay`  
 `echo ''`
 
-
+##问题
 如果安装后不能用，则先输入：  
 `fortune -f  `  
 查看是否已经导入song100 tang300 shijing chinese的数据  
