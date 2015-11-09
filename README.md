@@ -4,12 +4,13 @@
 采用debian的数据库
 
 需要先安装： fortune strfile
+
 可选安装： cowsay ponysay
 
 安装：
-cd fortune-zh
-make
-make install
+    cd fortune-zh
+    make
+    make install
 
 用法:
 
