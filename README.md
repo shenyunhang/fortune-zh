@@ -13,7 +13,7 @@ cowsay ponysay
 
 ##用法:
 在/etc/bash.bashrc或者~/(你的shell配置文件)的最后加入：  
-`fortune -e song100 tang300 shijing chinese  
+`fortune -e song100 tang300 shijing chinese   
 echo ''`
 
 或者  
