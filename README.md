@@ -16,7 +16,7 @@ cowsay ponysay
 ##用法:
 `fortune -e song100 tang300 shijing chinese`
 
-登陆显示，在/etc/bash.bashrc或者~/(你的shell配置文件)的最后加入：  
+登陆显示，在~/(你的shell配置文件)的最后加入：  
 `fortune -e song100 tang300 shijing chinese`  
 `echo ''`
 
@@ -32,5 +32,7 @@ cowsay ponysay
 如果安装后不能用，则先输入：  
 `fortune -f  `  
 查看是否已经导入song100 tang300 shijing chinese的数据。   
-如果没有则修改Makefile里对应的路径再安装。  
+如果没有则修改Makefile里对应的路径再安装。
+
+另外这个库的诗经似乎还不完整，有大量乱码。
 
