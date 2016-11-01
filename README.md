@@ -3,29 +3,30 @@
 使用debian的数据库  
 
 ##需要先安装
-fortune
+fortune  
 strfile(通常会和fortune一起安装) 
 
 ##可选安装
-cowsay ponysay
+cowsay  
+ponysay
 
 ##安装：
 `cd fortune-zh`  
 `make all`  
 `make install`  
 
-##用法:
+##用法:  
 `fortune -e song100 tang300 shijing chinese`
 
 登陆显示，在~/(你的shell配置文件)的最后加入：  
 `fortune -e song100 tang300 shijing chinese`  
 `echo ''`
 
-或者:
+或者:  
 `fortune -e song100 tang300 shijing chinese |cowsay`  
 `echo ''`
 
-或者:
+或者:  
 `fortune -e song100 tang300 shijing chinese |ponysay`  
 `echo ''`
 
