@@ -1,6 +1,6 @@
 DESTDIR=
-FORTUNES=/usr/share/fortune
-GAMES=/usr/games
+FORTUNES=/usr/share/games/fortunes
+GAMES=/usr/share/games
 
 TEXTS = tang300 song100 shijing chinese
 DATA=tang300.dat song100.dat shijing.dat chinese.dat
