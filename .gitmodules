@@ -1,0 +1,3 @@
+[submodule "gushiwen-crawler"]
+	path = gushiwen-crawler
+	url = https://github.com/shenyunhang/gushiwen-crawler.git
