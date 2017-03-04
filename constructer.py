@@ -29,8 +29,6 @@ class Constructer():
                 if path_ext != '.txt':
                     continue
                 self._index += 1
-                if self._index > 2000:
-                    break
 
                 key = path_list[key_index]
 
@@ -45,14 +43,18 @@ class Constructer():
                     author_poetry = f.readline().strip()
                     content_poetry = f.read().strip()
 
-                file_dict[key].writelines(cfg.FORMAT_TITLE.format(title_poetry))
-                file_dict[key].writelines(cfg.FORMAT_DYNASTY.format(dynasty_poetry))
-                file_dict[key].writelines(cfg.FORMAT_AUTHOR.format(author_poetry))
-                file_dict[key].writelines(cfg.FORMAT_CONTENT.format(content_poetry))
+                file_dict[key].writelines(
+                    cfg.FORMAT_TITLE.format(title_poetry))
+                file_dict[key].writelines(
+                    cfg.FORMAT_DYNASTY.format(dynasty_poetry))
+                file_dict[key].writelines(
+                    cfg.FORMAT_AUTHOR.format(author_poetry))
+                file_dict[key].writelines(
+                    cfg.FORMAT_CONTENT.format(content_poetry))
 
                 print '-----------------------------------------------------------'
-                print path, path_list, path_ext, key
-                print 'Parser: ', self._index
+                print key, path
+                print 'Constructer: ', self._index
                 print '标题：', title_poetry
                 print '朝代：', dynasty_poetry
                 print '作者：', author_poetry
