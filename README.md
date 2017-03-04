@@ -1,5 +1,7 @@
 # fortune-zsh
-中文的fortune
+中国古诗词版的fortune。
+
+Chinese ancient poetry fortune.
 
 #依赖
 fortune
