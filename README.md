@@ -29,12 +29,12 @@ Chinese ancient poetry fortune.
 
 清代：669
 
-#依赖
+# 依赖
 fortune
 
 strfile(通常会和fortune一起安装)
 
-#安装:
+# 安装:
 
 爬取最新古诗词并安装
 
@@ -55,7 +55,7 @@ strfile(通常会和fortune一起安装)
   ./install.sh
   ```
 
-#快速安装
+# 快速安装
 
 使用已经爬取下来的古诗文数据。
 
@@ -70,7 +70,7 @@ strfile(通常会和fortune一起安装)
   sudo cp * /usr/share/games/fortunes/
   ```
   
-#用法:
+# 用法:
 
 1. 随机输出古诗文
   ```shell
@@ -101,7 +101,7 @@ strfile(通常会和fortune一起安装)
   echo ''
   ```
 
-#问题
+# 问题
 如果安装后不能用，则先输入：
 ```shell
 fortune -f
