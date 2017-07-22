@@ -34,6 +34,10 @@ fortune
 
 strfile(通常会和fortune一起安装)
 
+```shell
+sudo apt-get install fortunes
+```
+
 # 安装:
 
 爬取最新古诗词并安装
@@ -72,7 +76,7 @@ strfile(通常会和fortune一起安装)
   
 # 用法:
 
-1. 随机输出古诗文
+1. 随机输出古诗文。  
   ```shell
   fortune -e 先秦 两汉 魏晋 南北朝 隋代 唐代 五代 宋代 金朝 元代 明代 清代
   ```
@@ -83,19 +87,19 @@ strfile(通常会和fortune一起安装)
   echo ''
   ```
 
-  登录效果图：  
+  登录效果图：  
   ![image](https://github.com/shenyunhang/fortune-zh/blob/master/screenshots/Capture.PNG)
   ![image](https://github.com/shenyunhang/fortune-zh/blob/master/screenshots/Capture2.PNG)
   ![image](https://github.com/shenyunhang/fortune-zh/blob/master/screenshots/Capture3.PNG)
 
 
-3. 或者
+3. 或者：  
   ```shell
   fortune -e 先秦 两汉 魏晋 南北朝 隋代 唐代 五代 宋代 金朝 元代 明代 清代 |cowsay
   echo ''
   ```
 
-4. 或者:  
+4. 或者：  
   ```shell
   fortune -e 先秦 两汉 魏晋 南北朝 隋代 唐代 五代 宋代 金朝 元代 明代 清代 |ponysay
   echo ''
